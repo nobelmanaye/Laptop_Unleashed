@@ -1,0 +1,86 @@
+ /* Basic CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style the search bar */
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            border-color: azure;
+        }
+
+        input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        #Search_button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .Laptopspreview{
+            background-color:#333;
+            max-width: 800px;
+            max-height: 1000 px;
+            padding: 0 px;
+            width: 620px;
+           
+            margin-bottom: 50px;
+            border: solid 6px #ccd;
+            display: flex;
+            align-items:left;
+ 
+
+        }
+        #next1{
+            padding: 20px 30px;
+            width: 40px;
+            height: 400px;
+            background-color: rgb(41, 232, 232);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            max-height: 10 px;
+            cursor: pointer;
+            clip-path: polygon( 0% 0%, 0% 100%,50% 50%)
+
+
+
+        }
+        .arrowbutton{
+            display: block;
+            margin: auto;
+
+
+
+        }
